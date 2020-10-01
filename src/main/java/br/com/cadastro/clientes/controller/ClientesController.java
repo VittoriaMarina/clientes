@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cadastro.clientes.modelos.Cliente;
 import br.com.cadastro.clientes.service.ClienteService;
 
-//Essa é a classe controladora, o ponto de entrada da requisição
 @RestController
 @RequestMapping("/clientes")
 public class ClientesController {

@@ -9,8 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-// A classe Cliente no Eclipse representa a tabela Cliente no Banco de Dados MySql
-// É apenas a representação, para ela acessar o banco necessita da camada repositório 
 @Entity
 @Table(name = "CLIENTES")
 public class Cliente {
